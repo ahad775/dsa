@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 void clockwise(string &str){
-    int index= str.size()-2;
+    int index= str.size()-1;
         char c=str[index] ;
 
    while(index>=0){

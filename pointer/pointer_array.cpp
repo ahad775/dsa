@@ -18,6 +18,9 @@ for(int i=0;i<5;i++){
 cout<<ptr[i]<<endl;
 }
 
-
+int num=4;
+int *ptr2=&num;
+*ptr2=100;
+cout<<*ptr2;
    return 0;
 }
