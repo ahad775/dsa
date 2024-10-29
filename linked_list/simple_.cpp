@@ -12,7 +12,7 @@ class Node{
 };
 
 int main(){
-Node *Head;
+Node *Head=NULL;
 Head=NULL;
 for(int i=1;i<=10;i++){
 if(Head==NULL){
