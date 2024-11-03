@@ -27,7 +27,7 @@ int main(){
 const int n=5;
 
 Node *Head=NULL;
-int arr[n]={12,34,56,9,12};
+int arr[n]={1,34,56,9,12};
 
 for (int i = 0; i < n; i++)
 {
@@ -47,7 +47,7 @@ Head=new Node(arr[i]);
 
 
 }
-Head=del(Head,3);
+Head=del(Head,n);
   Node *temp=Head;
   while (temp)
 
